@@ -1,0 +1,25 @@
+
+enterprise-python-automation/
+│
+├── README.md
+├── pyproject.toml
+├── requirements.txt
+├── config.json
+│
+├── src/
+│   └── enterprise_automation/
+│       ├── __init__.py
+│       ├── main.py
+│       ├── api_client.py
+│       ├── data_processor.py
+│       ├── scheduler.py
+│       ├── report_generator.py
+│       └── cli.py
+│
+├── tests/
+│   ├── __init__.py
+│   ├── test_api_client.py
+│   ├── test_data_processor.py
+│   └── test_report_generator.py
+│
+└── reports/
