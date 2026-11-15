@@ -1,0 +1,26 @@
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "enterprise-python-automation"
+version = "1.0.0"
+description = "Enterprise Python Automation Capstone Project"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "requests",
+    "fastapi",
+    "reportlab",
+    "apscheduler"
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.scripts]
+enterprise-automation = "enterprise_automation.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
