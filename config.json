@@ -1,0 +1,18 @@
+
+{
+  "api": {
+    "base_url": "https://jsonplaceholder.typicode.com",
+    "timeout": 30
+  },
+  "scheduler": {
+    "interval_minutes": 60,
+    "enabled": true
+  },
+  "report": {
+    "output_directory": "reports",
+    "file_name": "automation_report.pdf"
+  },
+  "logging": {
+    "level": "INFO"
+  }
+}
