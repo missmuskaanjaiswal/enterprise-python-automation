@@ -1,0 +1,21 @@
+
+[
+    {
+        "id": 1,
+        "name": "Student A",
+        "department": "AI & Data Science",
+        "status": "active"
+    },
+    {
+        "id": 2,
+        "name": "Student B",
+        "department": "Computer Science",
+        "status": "active"
+    },
+    {
+        "id": 3,
+        "name": "Student C",
+        "department": "Information Technology",
+        "status": "inactive"
+    }
+]
